@@ -1,0 +1,18 @@
+.wrapper {
+    padding-top: 80px;
+    display: grid;
+    grid: "profile news"
+        "tabs    news";
+    grid-template-rows: 250px;
+}
+
+.profile {
+    grid-area: profile;
+}
+.news {
+    grid-area: news;
+}
+.tabs {
+    grid-area: tabs;
+    min-height: 500px;
+}

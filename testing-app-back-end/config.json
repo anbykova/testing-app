@@ -1,0 +1,16 @@
+{
+    "PORT" : 8090,
+    "URL" : "/cop",
+    "PATH_IMAGES": "./public/images/",
+    "MONGO_HOST" : "localhost",
+    "MONGO_PORT" : 27017,
+    "MONGO_NAME" : "copDB",
+    "SECRET_KEY" : "secret",
+    "PATH_LOG" : "log/",
+    "OAUTH2": {
+        "clientId": "745700322162-gep44qpible2dkai7ntpe13nesd0hfa0.apps.googleusercontent.com",
+        "clientSecret": "FIwAUYtUcZoEYiQ4JRuX2D8E",
+        "accessTokenUrl": "https://accounts.google.com/o/oauth2/token",
+        "peopleApiUrl": "https://www.googleapis.com/plus/v1/people/me/openIdConnect"
+  }
+}

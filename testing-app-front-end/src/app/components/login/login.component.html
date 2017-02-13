@@ -1,0 +1,16 @@
+<div class="header-container blue-grey lighten-5">
+    <!--<img src="../../../images/t-feature-icon.svg" alt="logo" class="logo">-->
+    <span class='header-text'>
+        Welcome to testing app
+    </span>
+</div>
+
+<div class="body-container white">
+    <span class='body-text'>
+         Please Sign In to Your Account to start using the Application.
+    </span>
+    <button class="btn-flat btn-signin waves-effect waves-light red lighten-1 white-text" (click)=loginWithGoogle()>
+        Login
+    </button>
+    <preloader *ngIf="showSpinner"></preloader>
+</div>
