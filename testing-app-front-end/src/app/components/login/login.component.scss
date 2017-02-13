@@ -1,0 +1,34 @@
+.header-container {
+    display: flex;
+    -webkit-justify-content: center; /* Safari */
+    justify-content: center;
+    -webkit-align-items: center; /* Safari */
+    align-items: center;
+    height: 60vh;
+    flex-direction: column;
+    
+    .header-text {
+        margin-top: 20px;
+        font-size: 2em;
+        font-weight: 200;
+    }
+}
+.body-container {
+    display: flex;
+    padding-top: 5vh;
+    -webkit-justify-content: center; /* Safari */
+    justify-content:  flex-start;
+    -webkit-align-items: start; /* Safari */
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+    
+    .body-text {
+        margin-bottom: 20px;
+    }
+}
+
+.logo {
+    height: 40vh;
+    width: 40vh;
+}
